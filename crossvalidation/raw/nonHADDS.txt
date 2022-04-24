@@ -1,0 +1,73 @@
+Proband #	Proband E-1	Proband E-2	Proband E-3	Proband E-4	Proband E-5	Proband E-6	Proband E-7	Proband E-8	Proband E-9
+Gender	female	male	male	female	male	male	male	male	male
+Hypotonia	no	yes	yes	no	yes	yes	no	yes	yes
+Hypertonia, location unspecified	no	yes	yes	no	yes	no	no	yes	n/a
+Hypertonia, lower extremities specified	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Motor delay	no	n/a	yes	yes	yes	yes	no	yes	no
+Motor incoordination	yes	n/a	yes	yes	n/a	yes	n/a	yes	yes
+Gait ataxia	no	yes	no	n/a	n/a	no	n/a	yes	yes
+Ataxia, unspecified	no	yes	no	n/a	n/a	no	n/a	yes	yes
+Hypomimia	n/a	n/a	no	no	no	no	no	yes	no
+Weak or absent cry	no	n/a	n/a	no	yes	no	no	n/a	no
+Speech delay	yes	n/a	yes	yes	yes	yes	yes	yes	yes
+Speech apraxia	n/a	n/a	n/a	n/a	n/a	n/a	n/a	no	n/a
+Dysarthria	n/a	yes	n/a	n/a	n/a	n/a	n/a	yes	n/a
+Nonverbal	n/a	yes	yes	n/a	yes	yes	no	no	no
+Nonambulatory	n/a	no	yes	n/a	no	yes	no	yes	no
+Unprovoked seizures	yes	no	yes	yes	yes	yes	yes	yes	yes
+Febrile seizures	no	no	yes	n/a	n/a	n/a	n/a	n/a	yes
+Abnormal EEG	yes	n/a	yes	yes	yes	no	yes	yes	yes
+Abnormal muscle biopsy	n/a	n/a	n/a	n/a	yes	n/a	n/a	yes	n/a
+Nystagmus	n/a	n/a	yes	n/a	n/a	n/a	n/a	no	no
+Strabismus	no	n/a	yes	no	yes	n/a	no	yes	no
+Increased hearing sensitivity	n/a	n/a	n/a	no	n/a	no	n/a	yes	n/a
+Disturbed by loud noises	n/a	n/a	n/a	n/a	n/a	n/a	n/a	yes	n/a
+Repetitive itching, location unspecified	n/a	n/a	no	no	yes	yes	yes	n/a	n/a
+Repetitive itching (lower back or back of neck)	n/a	n/a	no	n/a	n/a	n/a	n/a	n/a	n/a
+Decreased pain sensitivity	no	n/a	n/a	no	yes	yes	no	no	no
+Attraction to lights	n/a	n/a	n/a	n/a	n/a	yes	n/a	no	n/a
+Autistic features	n/a	n/a	n/a	n/a	yes	yes	yes	yes	n/a
+Formal autism diagnosis	n/a	n/a	n/a	yes	no	yes	yes	no	n/a
+ADHD	n/a	n/a	n/a	no	no	n/a	no	no	no
+Emotional lability	yes	n/a	yes	n/a	n/a	yes	n/a	yes	n/a
+Stereotypy	yes	n/a	n/a	no	yes	yes	yes	yes	no
+Poor eye contact	no	n/a	no	no	n/a	yes	no	no	no
+Aversion to crowds	n/a	n/a	n/a	n/a	n/a	n/a	n/a	yes	n/a
+Abnormal brain MRI, with/without specification	yes	yes	yes	n/a	yes	no	no	yes	yes
+Cerebellar anomaly	n/a	yes	yes	n/a	n/a	n/a	n/a	yes	n/a
+Cerebellar vermis hypoplasia	n/a	no	n/a	n/a	n/a	n/a	n/a	yes	n/a
+Prominent ventricles	n/a	no	n/a	n/a	n/a	n/a	n/a	no	n/a
+Delayed myelination	n/a	no	yes	n/a	n/a	yes	n/a	n/a	n/a
+Abnormal corpus callosum	n/a	yes	yes	n/a	n/a	n/a	n/a	yes	n/a
+Hydrocephalus	n/a	no	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Partial rhomboencephalosynapsis	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Dysmorphic facies	n/a	n/a	no	yes	yes	no	no	no	yes
+Prominent forehead	n/a	n/a	yes	n/a	n/a	n/a	n/a	n/a	n/a
+Mouth/lip abnormality	n/a	n/a	n/a	no	yes	no	n/a	n/a	no
+Ear abnormality	n/a	n/a	n/a	no	no	no	n/a	n/a	no
+Tall forehead	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Long face	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	yes
+Deep philtrum	n/a	n/a	no	n/a	n/a	n/a	n/a	n/a	no
+High nasal bridge	n/a	n/a	n/a	n/a	n/a	no	n/a	n/a	n/a
+Straight or heavy eyebrows	n/a	n/a	n/a	n/a	yes	n/a	n/a	n/a	yes
+Triangular face	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Short and broad chin	n/a	n/a	no	n/a	n/a	n/a	n/a	n/a	n/a
+Anteverted nares	n/a	n/a	no	n/a	n/a	n/a	n/a	n/a	n/a
+Pointed chin	n/a	n/a	no	n/a	n/a	n/a	n/a	n/a	n/a
+Myopathic facies	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Clinodactyly	n/a	n/a	no	n/a	n/a	n/a	n/a	no	no
+Pectus excavatum	n/a	n/a	n/a	n/a	n/a	yes	n/a	n/a	no
+Short digits	n/a	n/a	no	n/a	n/a	no	n/a	no	no
+Low muscle mass	n/a	n/a	no	n/a	n/a	yes	n/a	no	no
+Short stature	n/a	n/a	n/a	no	n/a	no	n/a	n/a	no
+Gastroesophageal reflux disease	no	n/a	yes	no	no	yes	no	n/a	no
+Constipation	yes	n/a	yes	yes	yes	yes	no	no	yes
+Difficulty feeding	no	n/a	yes	no	yes	yes	no	no	no
+Single UTI	no	n/a	n/a	yes	no	no	no	n/a	n/a
+Recurrent UTIs	no	n/a	n/a	n/a	no	no	no	n/a	n/a
+Abnormal kidney/bladder anatomy	n/a	n/a	n/a	yes	n/a	no	no	n/a	n/a
+Vesicoureteric reflux	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Bladder control problems	yes	n/a	n/a	yes	yes	yes	no	yes	no
+Labia majora hypoplasia	n/a	n/a	n/a	no	n/a	n/a	n/a	n/a	n/a
+Cryptorchidism	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
+Abnormal external genitalia	n/a	n/a	n/a	no	n/a	no	n/a	n/a	no
