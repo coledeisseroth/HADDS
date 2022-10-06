@@ -3,14 +3,14 @@ cat raw/rawdata.txt | awk 'BEGIN {FS = "\t"} $2 == "yes" || $2 == "no" || $2 == 
 #If you copy-paste the non-HADDS phenotype excel sheet into raw/nonHADDS.txt, this should work fine.
 cat raw/nonHADDS.txt | awk 'BEGIN {FS = "\t"} $2 == "yes" || $2 == "no" || $2 == "n/a"' | grep -vw "CNV deletion" > nonHADDS_data.txt
 #If you copy-paste the literature phenotype sheet into raw/rawdata.txt, this should work fine.
-cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | head -5 | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | awk 'BEGIN {FS = "\t"} $2 == "yes" || $2 == "no" || $2 == "n/a"' | grep -vw "CNV deletion" | grep -vw "OFC" | grep -vw "Enrolled" > litdata.txt
+cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | grep "Enrolled in current study" | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | awk 'BEGIN {FS = "\t"} $2 == "yes" || $2 == "no" || $2 == "n/a"' | grep -vw "CNV deletion" | grep -vw "OFC" | grep -vw "Enrolled" > litdata.txt
 
 
-(cat raw/rawdata.txt | grep "Variant type 2"; cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | head -5 | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | grep "Variant type 2") | cut -f2- | sed 's/\t/\n/g' | awk '{print NR "\t" $0}' > patient_to_variant_type.txt
-(cat raw/rawdata.txt | grep "GENERAL"; cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | head -5 | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | grep "GENERAL") | cut -f2- | sed 's/\t/\n/g' | awk '{print NR "\t" $0}' > patient_to_study_ID.txt
+(cat raw/rawdata.txt | grep "Variant type 2"; cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | grep "Enrolled in current study" | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | grep "Variant type 2") | cut -f2- | sed 's/\t/\n/g' | awk '{print NR "\t" $0}' > patient_to_variant_type.txt
+(cat raw/rawdata.txt | grep "GENERAL"; cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | grep "Enrolled in current study" | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | grep "GENERAL") | cut -f2- | sed 's/\t/\n/g' | awk '{print NR "\t" $0}' > patient_to_study_ID.txt
 
 
-(cat raw/rawdata.txt | grep "Cerebellar anomaly"; cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | head -5 | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | grep "Cerebellar anomaly") | cut -f2- | sed 's/\t/\n/g' | awk '{print NR "\t" $0}' > patient_to_cerebellum.txt
+(cat raw/rawdata.txt | grep "Cerebellar anomaly"; cat raw/litdata.txt | cut -f$(cat raw/litdata.txt | grep "Enrolled in current study" | tail -1 | sed 's/\t/\n/g' | grep -wvn yes | cut -d':' -f1 | paste -sd,) | grep "Cerebellar anomaly") | cut -f2- | sed 's/\t/\n/g' | awk '{print NR "\t" $0}' > patient_to_cerebellum.txt
 
 cat raw/DDSS_delays.txt | cut -f1,3- | grep "Average months delayed" | cut -f2- | sed 's/\t/\n/g' | awk '{if($1 == ""){print "n/a"} else{print $0}}' | awk '{print NR "\t" $0}' > average_delays.txt
 
